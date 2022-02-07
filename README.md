@@ -3,6 +3,7 @@
 Ubah terlebih dahulu pada file "config/functions.php" sesuiakan pada baris 4 dan 13.
 
 * Live Demo : 
+        
         Pasien/dokter = http://poliklinik.ridhaniskt.com/
         
         Admin = http://poliklinik.ridhaniskt.com/admin
