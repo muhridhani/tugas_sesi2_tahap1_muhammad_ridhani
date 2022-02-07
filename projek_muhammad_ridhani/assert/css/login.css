@@ -1,0 +1,172 @@
+.container1{
+    margin:auto;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 3%;
+    box-shadow: 2px 2px 4px 8px rgba(119, 119, 119, 0.3);
+}
+
+.login{
+    flex-basis: 100%;
+    color: #105f9c;
+    padding: 40px 40px 20px 40px;
+}
+
+.login nav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3px;
+}
+
+hr{
+    height: 3px;
+    background-color:#104d7c
+}
+
+.login nav .btn{
+    display: inline-block;
+    width: 50%;
+    border: 1px solid #accaf3;
+    padding: 10px 0;
+    background-color:#105f9c;
+    color: white;
+    transition: all 0.2s;
+}
+
+.login nav .btn:hover{
+    background-color: #104d7c;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-radius:15px 15px 0 0;
+}
+
+.login nav .active{
+    background-color : #104d7c;
+    color: white;
+    border-radius:15px 15px 0 0;
+    transition: all 0.2s;
+}
+
+.form{
+    font-size:14px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.salah{
+    color: red;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.2);
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+.benar{
+    color: green;
+    padding: 10px;
+    background-color: rgba(0, 255, 0, 0.2);
+    margin-bottom: 10px;
+    /* display: none; */
+}
+
+
+.input{
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    color: #105f9c;
+    background-color: #accaf3;
+    min-width: 40px;
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+}
+
+.field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #accaf3;
+    background-color: #f2f2f2;
+}
+
+.field:focus {
+    border: 2px solid #77a9f0;
+}
+
+.msk{
+    padding: 10px 24px;
+    margin-top: 10px;
+    background-color: #105f9c;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.msk:hover{
+    background-color: #104d7c;
+}
+
+.form a {
+    color: #105f9c;
+}
+
+.header{
+    margin-top: 2%;
+    text-align: center;
+    color: #105f9c;
+}
+.header h1{
+    font-size : 40px;
+}
+
+.header h3{
+    font-size : 30px;
+}
+
+.hilang{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .container1{
+        width: 85%;
+        flex-direction: column;
+        border-radius: 12px;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 18%;
+    }
+
+    .header{
+        margin-top: 10%;
+    }
+    
+    .login{
+        padding: 20px;
+    }
+
+    .login h3{
+        font-size: 16px;
+    }
+
+    .form{
+        font-size:14px;
+        padding: 0 5px;
+    }
+
+    .msk{
+        padding: 8px;
+    }
+}

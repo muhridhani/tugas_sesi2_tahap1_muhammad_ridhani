@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    background-image: url(../img/bg2.png);
+    background-size: 100%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.modal_content{
+    font-size: 16px !important;
+}
+
+.btn{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+#btn_cancel_1{
+    background-color: rgba(255, 0, 0, 0);
+    /* border: 1px solid red; */
+    color: red;
+}
+
+.hilang{
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    #popup_modal_1{
+        margin-top: 50%;
+        width: 90%;
+    }
+
+    .modal_content{
+        font-size: 14px !important;
+    }
+
+    .btn{
+        font-size: 12px !important;
+    }
+}

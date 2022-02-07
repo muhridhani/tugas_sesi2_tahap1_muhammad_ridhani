@@ -1,0 +1,130 @@
+.dashboard{
+    padding: 10px;
+    width: 70%;
+    margin: 0px auto;
+    color : black;
+}
+
+.dashboard nav{
+    font-size: 15px;
+}
+
+
+.tabel2, .tabatur{
+    width: 100%;
+    font-size: 14px;
+}
+
+.tabel2 td, .tabatur td{
+    padding: 5px;
+}
+
+.inTambah{
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(152, 187, 243);
+}
+
+.top{
+    vertical-align: text-top;
+    font-size: 14px;
+}
+
+.filter{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.drop{
+    border-radius: 5px;
+    outline: none;
+}
+
+.drop{
+    width: 20%;
+    font-size: 12px;
+    padding: 3px 10px;
+    border: 1px solid #105f9c;
+}
+
+.drop2{
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid rgb(152, 187, 243);
+}
+
+.btn{
+    font-size: 14px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.simpan{
+    margin-top: 15px;
+}
+
+.edit, .simpan{
+    background-color: rgb(71, 135, 255);
+}
+
+.edit:hover, .simpan:hover{
+    background-color: rgb(51, 122, 255);
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th{
+    background-color: #105f9c;
+    color: white;
+}
+
+.res {
+    margin: 0px;
+    background-color: rgb(253, 122, 122);
+}
+
+.res:hover{
+    margin-top: 0px;
+    background-color: rgb(255, 57, 57);
+}
+
+.res1 {
+    margin: 0px;
+    background-color: rgb(74, 101, 255);
+}
+
+.res1:hover{
+    margin-top: 0px;
+    background-color: rgb(25, 41, 255);
+}
+
+.tbltidak table, .tbltidak th, .tbltidak td{
+    border: none;
+}
+
+.tbltidak{
+    border: none ;
+}
+
+.tt{
+    height: 90px;
+    min-width: 450px;
+}
+
+.bb th, .bb td{
+    border: none;
+}
+
+.gg{
+    width: 50%;
+}
