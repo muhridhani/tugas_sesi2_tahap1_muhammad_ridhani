@@ -9,6 +9,7 @@ Ubah terlebih dahulu pada file "config/functions.php" sesuiakan pada baris 4 dan
         Admin = http://poliklinik.ridhaniskt.com/admin
 
 * Login Admin:
+
         Username = admin 
         
         Pass = admin
