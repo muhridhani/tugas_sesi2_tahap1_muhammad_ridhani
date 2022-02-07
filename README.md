@@ -12,9 +12,9 @@ Ubah terlebih dahulu pada file "config/functions.php" sesuiakan pada baris 4 dan
 
 * Login Dokter:
 
-NIK = 1610131310013 
+    NIK = 1610131310013 
 
-Pass = 123456
+    Pass = 123456
 
 * Login Pasien:
 
